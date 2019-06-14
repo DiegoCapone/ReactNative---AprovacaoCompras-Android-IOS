@@ -1,4 +1,4 @@
-package com.invertase.rnfirebasestarter;
+package com.grupomir.wwwgrupomiraprovacaocombr;
 
 import android.support.multidex.MultiDexApplication;
 
