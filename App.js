@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, Platform, Image, Text, View, ScrollView, Button } from 'react-native';
 
 import firebase from 'react-native-firebase';
+import Icon from 'react-native-vector-icons/FontAwesome'
 
 
 export default class App extends React.Component {
@@ -49,6 +50,7 @@ export default class App extends React.Component {
             </Text>
           )}
           <View style={styles.modules}>
+          <Icon name="lock" size={20} />
             <Text style={styles.modulesHeader}>The following Firebase modules are pre-installed:</Text>
             {firebase.admob.nativeModuleExists && <Text style={styles.module}>admob()</Text>}
             {firebase.analytics.nativeModuleExists && <Text style={styles.module}>analytics()</Text>}
